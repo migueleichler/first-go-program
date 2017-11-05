@@ -1,1 +1,3 @@
-# first-go-program
+# First Program Written in Go Lang
+
+Based in the Problem FizzBuzz
