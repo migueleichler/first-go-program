@@ -16,6 +16,10 @@ func fizzbuzz(number int) string {
 
 func main() {
     for i := 0; i < 100; i++ {
-        fmt.Println(fizzbuzz(i))
+        var msg string = fizzbuzz(i)
+
+        if msg != "" {
+            fmt.Printf("Number %d - %s\n", i, fizzbuzz(i))
+        }
     }
 }
